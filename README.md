@@ -128,7 +128,7 @@ cervical-screening-cdss/
 ## Run it yourself
 
 ```bash
-git clone https://github.com/onipayedejohn/cervical-screening-cdss.git
+git clone https://github.com/onipayedejohn/cervical-cancer-screening-cdss.git
 cd cervical-screening-cdss
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt
