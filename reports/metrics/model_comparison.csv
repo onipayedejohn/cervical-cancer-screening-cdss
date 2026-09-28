@@ -1,0 +1,6 @@
+model,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std,brier_mean,brier_std,cv_seconds,cv_energy_wh,cv_co2_g,fit_seconds,fit_energy_wh,fit_co2_g,inference_ms_per_1000,inference_energy_mwh_per_1000,model_size_kb,best_params
+Gradient boosting,0.59607,0.09971,0.14456,0.07818,0.16497,0.02353,16.81429,0.07605,0.03681,0.69557,0.0032,0.00155,2.06122,0.01019,82.24316,"{""model__learning_rate"": 0.03, ""model__max_depth"": 3, ""model__max_iter"": 100}"
+Random forest,0.60373,0.08428,0.13509,0.04894,0.12172,0.03213,192.64754,0.72198,0.34944,8.70519,0.03268,0.01581,10.78877,0.04172,1010.2207,"{""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5}"
+Logistic regression,0.57926,0.11524,0.12699,0.0489,0.22139,0.01034,2.22355,0.01101,0.00533,0.08415,0.00042,0.0002,0.45555,0.00177,3.21973,"{""model__C"": 0.01}"
+SVM (RBF),0.5071,0.12138,0.12678,0.05954,0.06,0.00142,8.12997,0.03143,0.01521,0.45432,0.00176,0.00085,25.58891,0.0991,123.4502,"{""model__C"": 0.1, ""model__gamma"": ""scale""}"
+Baseline (no skill),0.5,0.0,0.0639,0.00021,0.05982,0.00018,0.19627,0.00063,0.0003,0.00326,0.0,0.0,0.23558,0.00091,1.84473,{}

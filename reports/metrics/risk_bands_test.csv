@@ -1,0 +1,4 @@
+band,n,positives,observed_rate
+Lower,89,2,0.02247191011235955
+Average,64,5,0.078125
+Higher,56,7,0.125

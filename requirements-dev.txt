@@ -1,0 +1,7 @@
+# Everything needed to retrain the model and run the tests
+-r requirements.txt
+matplotlib==3.10.9
+codecarbon==3.3.1
+pytest
+notebook
+ipykernel

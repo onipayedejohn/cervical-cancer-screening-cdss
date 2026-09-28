@@ -1,0 +1,11 @@
+patient_id,age,hiv_status,symptoms,known_cervical_cancer,ever_screened,years_since_last_screen,last_test_type,last_result,consecutive_negatives,sexual_partners,age_first_sex,pregnancies,smoking_years,pack_years,hormonal_contraception_years,iud_years,sti_count,genital_warts,syphilis
+SYN-001,34,negative,,0,0,,,,0,3,17,2,0,0,4,0,0,0,0
+SYN-002,27,positive,,0,0,,,,0,2,16,1,0,0,2,0,1,0,0
+SYN-003,41,negative,,0,1,3,hpv_dna,negative,1,2,19,3,0,0,1,0,0,0,0
+SYN-004,46,negative,,0,1,7,hpv_dna,negative,1,5,15,4,6,3,10,0,0,0,0
+SYN-005,38,positive,,0,1,4,via,negative,2,4,16,3,0,0,3,2,1,1,0
+SYN-006,56,negative,,0,1,4,hpv_dna,negative,2,1,21,5,0,0,0,0,0,0,0
+SYN-007,44,unknown,postcoital_bleeding,0,1,2,cytology,negative,1,2,18,2,0,0,2,0,0,0,0
+SYN-008,36,negative,,0,1,0.5,hpv_dna,positive_awaiting,0,3,17,2,0,0,5,0,0,0,0
+SYN-009,32,negative,,0,1,1,hpv_dna,positive_triage_negative,0,,,1,,,,,,,
+SYN-010,24,negative,,0,0,,,,0,1,20,0,0,0,0,0,0,0,0

@@ -1,0 +1,158 @@
+{
+  "model_name": "Gradient boosting",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__max_iter": 100
+  },
+  "features": [
+    "Age",
+    "Number of sexual partners",
+    "First sexual intercourse",
+    "Num of pregnancies",
+    "Smokes (years)",
+    "Smokes (packs/year)",
+    "Hormonal Contraceptives (years)",
+    "IUD (years)",
+    "STDs (number)",
+    "STDs:condylomatosis",
+    "STDs:syphilis",
+    "STDs:HIV",
+    "STDs: Number of diagnosis"
+  ],
+  "labels": {
+    "Age": "Age",
+    "Number of sexual partners": "Lifetime sexual partners",
+    "First sexual intercourse": "Age at first sex",
+    "Num of pregnancies": "Pregnancies",
+    "Smokes (years)": "Years smoking",
+    "Smokes (packs/year)": "Pack-years",
+    "Hormonal Contraceptives (years)": "Years on hormonal contraception",
+    "IUD (years)": "Years with an IUD",
+    "STDs (number)": "Number of past STIs",
+    "STDs:condylomatosis": "History of genital warts",
+    "STDs:syphilis": "History of syphilis",
+    "STDs:HIV": "Living with HIV",
+    "STDs: Number of diagnosis": "Number of STI diagnoses"
+  },
+  "threshold": 0.0556,
+  "target_sensitivity": 0.8,
+  "training_prevalence": 0.06389776357827476,
+  "dev_medians": {
+    "Age": 26.0,
+    "Number of sexual partners": 2.0,
+    "First sexual intercourse": 17.0,
+    "Num of pregnancies": 2.0,
+    "Smokes (years)": 0.0,
+    "Smokes (packs/year)": 0.0,
+    "Hormonal Contraceptives (years)": 0.5,
+    "IUD (years)": 0.0,
+    "STDs (number)": 0.0,
+    "STDs:condylomatosis": 0.0,
+    "STDs:syphilis": 0.0,
+    "STDs:HIV": 0.0,
+    "STDs: Number of diagnosis": 0.0
+  },
+  "dev_oof_at_threshold": {
+    "sensitivity": 0.8,
+    "specificity": 0.2781569965870307,
+    "ppv": 0.07032967032967033,
+    "npv": 0.9532163742690059,
+    "f2": 0.26016260162601623,
+    "tp": 32,
+    "fp": 423,
+    "tn": 163,
+    "fn": 8
+  },
+  "risk_band_cuts": [
+    0.060715903144599646,
+    0.07867338394825021
+  ],
+  "risk_bands_test": [
+    {
+      "band": "Lower",
+      "n": 89,
+      "positives": 2,
+      "observed_rate": 0.02247191011235955
+    },
+    {
+      "band": "Average",
+      "n": 64,
+      "positives": 5,
+      "observed_rate": 0.078125
+    },
+    {
+      "band": "Higher",
+      "n": 56,
+      "positives": 7,
+      "observed_rate": 0.125
+    }
+  ],
+  "test_metrics": {
+    "roc_auc": 0.667032967032967,
+    "pr_auc": 0.11629349501027014,
+    "brier": 0.06158550863289884,
+    "prevalence": 0.06698564593301436,
+    "sensitivity": 0.8571428571428571,
+    "specificity": 0.3435897435897436,
+    "ppv": 0.08571428571428572,
+    "npv": 0.9710144927536232,
+    "f2": 0.30612244897959184,
+    "tp": 12,
+    "fp": 128,
+    "tn": 67,
+    "fn": 2
+  },
+  "test_ci_95": {
+    "roc_auc": [
+      0.5125563862056396,
+      0.7996394290584253
+    ],
+    "pr_auc": [
+      0.061623211274101725,
+      0.22755065953227224
+    ],
+    "brier": [
+      0.036391500008479856,
+      0.09306150986642474
+    ],
+    "sensitivity": [
+      0.6363636363636364,
+      1.0
+    ],
+    "specificity": [
+      0.2789324470971242,
+      0.4093432642487046
+    ],
+    "ppv": [
+      0.043478260869565216,
+      0.13513513513513514
+    ],
+    "npv": [
+      0.9259121061359867,
+      1.0
+    ]
+  },
+  "leakage_demo": {
+    "with_leaky_columns_roc_auc": 0.8974358974358974,
+    "with_leaky_columns_pr_auc": 0.6944601492139112,
+    "leaky_columns": [
+      "Hinselmann",
+      "Schiller",
+      "Citology",
+      "Dx:Cancer",
+      "Dx:CIN",
+      "Dx:HPV",
+      "Dx"
+    ]
+  },
+  "n_raw": 858,
+  "n_after_dedup": 835,
+  "n_dev": 626,
+  "n_test": 209,
+  "positives_dev": 40,
+  "positives_test": 14,
+  "sklearn_version": "1.8.0",
+  "trained_on": "2026-09-28",
+  "seed": 42
+}

@@ -1,0 +1,14 @@
+feature,mean,std
+Hormonal Contraceptives (years),0.3857,0.0459
+First sexual intercourse,0.2864,0.0516
+Age,0.2825,0.041
+Number of sexual partners,0.1997,0.0331
+Num of pregnancies,0.183,0.0383
+STDs (number),0.1088,0.0354
+Smokes (packs/year),0.0874,0.0264
+Smokes (years),0.0795,0.0171
+IUD (years),0.0788,0.0205
+STDs: Number of diagnosis,0.0369,0.0223
+STDs:condylomatosis,0.0041,0.0021
+STDs:syphilis,0.0,0.0
+STDs:HIV,0.0,0.0

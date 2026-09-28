@@ -1,0 +1,4 @@
+age_band,n,positives,roc_auc,sensitivity,specificity
+under 30,414,25,0.579,0.76,0.308
+30 to 49,206,13,0.586,0.846,0.218
+50 and over,6,2,0.25,1.0,0.25
