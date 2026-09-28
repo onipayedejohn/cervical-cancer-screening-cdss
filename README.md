@@ -5,7 +5,7 @@ A small clinical decision support tool for cervical cancer screening. It has two
 1. **Guideline rules.** Plain if/else logic that applies the WHO 2021 screening recommendations to a woman's age, HIV status, symptoms and screening history. This layer decides what should happen today: refer, screen now, come back later, or stop.
 2. **A risk model.** A gradient boosting model that estimates the chance of a positive biopsy from questions a nurse can ask before any test is done. It adds context and never overrides the rules.
 
-**Live app:** _add your Streamlit link here_
+**Live app:** https://cervical-cancer-screening-cdss.streamlit.app/
 **Status:** research and teaching prototype. Not for clinical use (see [Disclaimer](#disclaimer)).
 
 ![Screening check](docs/screenshots/desktop_check.png)
